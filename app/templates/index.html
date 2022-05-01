@@ -11,12 +11,12 @@
 {% for source in news_sources %}
 
 
-        <div class=" col-md-4 card m-2 p-2">
+        <div class=" col-md-4 col-sm-6 card m-2 p-2">
 
            <div class="source_wrapper">
                 <h3><b class="text-center">{{ source.name }}</b></h3>
                 <p>{{ source.description }}</p>
-               <a class="btn btn-dark" href="{{ source.url }}" target="_blank" rel="noopener noreferrer">View Articles</a>
+               <a class="btn btn-dark" href="/source/{{ source.id }}" target="_blank" rel="noopener noreferrer">View Articles</a>
            </div>
         
         </div>
