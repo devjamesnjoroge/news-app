@@ -5,5 +5,5 @@ from ..requests import get_sources
 
 @main.route('/')
 def index():
-    get_sources()
-    return render_template('index.html')
+    news_sources = get_sources()
+    return render_template('index.html', news_sources = news_sources)

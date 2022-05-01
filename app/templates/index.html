@@ -5,5 +5,10 @@
 <div class="container bg-success">
     APP IS WORKING
 </div>
+{% for source in news_sources %}
+
+<li>{{ source.id }}</li>
+
+{% endfor %}
 
 {% endblock %}
