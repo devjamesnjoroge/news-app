@@ -11,3 +11,18 @@
     padding: 0 5%;
     margin: 5vh 0;
 }
+
+.articles_wrapper{
+    background-color: rgb(114, 58, 6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 0 5%;
+    margin: 5vh 0;
+    height: 70vh;
+
+}
