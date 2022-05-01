@@ -23,6 +23,16 @@
     border-radius: 5px;
     padding: 0 5%;
     margin: 5vh 0;
-    height: 70vh;
+    height: 75vh;
 
+}
+
+@media screen and (max-width: 820px) {
+
+    .articles_wrapper, 
+    .source_wrapper{
+        height: max-content;
+        padding: 4vh 0;
+    }
+    
 }
