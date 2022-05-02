@@ -25,6 +25,10 @@
 
 - knowledge on the CLI
 
+## LANGUAGES USED
+
+- HTML, CSS, PYTHON
+
 ## USAGE
 **First clone this repo**
 ```
@@ -43,7 +47,10 @@ source virtual/bin/activate
 pip install -r requirements.txt 
 ```
 **To run website**
+
 ```
+NEWS_API_KEY = Your own api key
+SECRET_KEY = Your own secret key
 python3 manage.py server
 ```
 
@@ -51,17 +58,10 @@ python3 manage.py server
 
 **30 APRIL 2022**
 
-## FOLDER STRUCTURE
+## AUTHORS INFO
 
-| app | tests | config.py | manage.py | start.sh|
-|-----| :---: | :-------: | :-------: | ------: |
-|main | `models_test.py`| `os.environ` variables|running app| hiding secret keys|
-|static|
-| templates|
-| `__init__.py`|
-|`models.py`|
-|`requests.py`|
-
+[Linkedin](https://www.linkedin.com/in/devjamesnjoroge)
+[Email](njorogehjames20@gmail.com)
 
 ## LICENSE
 
